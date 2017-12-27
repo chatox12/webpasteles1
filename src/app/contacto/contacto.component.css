@@ -1,0 +1,61 @@
+.descripcion{
+    text-align: left;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+.marcador{
+    color: white;
+    font-size: 2em;
+    
+}
+.direccion{
+
+    background-color: #000000;
+    color: #2fdab8;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2em 4em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+        
+}
+
+.telefono{
+    background-color: #000000;
+    color: #2fdab8;
+    font-size: 1em; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2em 4em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+
+}
+
+.correo{
+    background-color: #000000;
+    color: #2fdab8;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2em 4em;
+    width: 30%;
+}
+
+.informacion{
+    color: white;
+    font-size: 12px;
+}

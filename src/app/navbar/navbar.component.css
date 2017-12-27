@@ -1,0 +1,162 @@
+html, body{
+	margin:0;
+	font-size: 100%;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+font-family: 'Open Sans', sans-serif;
+}	
+p{
+	margin:0;
+	letter-spacing:1px;
+	font-size: 0.9em;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-- header --*/
+.header {
+    background: #03a9f4;
+}
+.header ul li {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 0;
+    letter-spacing: 1px;
+    border-right: 1px solid #000000;
+}
+.header ul li a {
+     color: #fff;
+    text-decoration: none;
+}
+.header ul li i {
+    margin-right: 12px;
+    top: 2px;
+    color: #fff;
+}
+.header-right {
+    text-align: right;
+}
+.header-left{
+    text-align: left;	
+}
+.header-bot_inner_wthreeinfo_header_mid {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.logo_agile {
+	text-align: center;
+    
+}
+.superposicion{
+	text-align: center;
+	position: relative; top: -10px;
+}
+/*para el color de las letras juntas al logotipo*/
+.logo_agile span {
+    background: #47fffa;
+    padding: 0 5px;
+	font-weight: bold;
+    color: #fff;
+}
+.logo_agile h1 a {
+    font-weight: 300;
+    color: #03a9f4;
+    letter-spacing: 1px;
+	font-size: 1.5em;
+
+	font-weight: bold;
+	position:relative;
+}
+.logo_agile h1 a:hover {
+  text-decoration:none;
+}
+i.fa.fa-shopping-bag.top_logo_agile_bag {
+    position: absolute;
+    font-size: 17px;
+    top: 66px;
+    right: 14px;
+    color: #2fdab8;
+}
+
+
+/*para el menu
+.button {
+	padding: 10;
+	}
+/*	
+   Este código elimina el padding que se puede crear por defecto en una lista de elementos, en este caso nuestro menú.
+   Por defecto, estas listas se crean de forma vertical, pero nuestro menú tiene que ser horizontal, así que le diremos que se pongan en línea usando “display: inline.”
+
+
+.button li {
+	display: inline;
+	}
+
+
+ 
+
+/*menu cliente*/
+	.button li a {
+		font-family: sans-serif;
+		font-size: 17px;
+		text-decoration: none;
+		padding: 10px;
+		background-color: #03a9f4;
+		color: #fff;
+		}
+	
+	.button li a:hover {
+		background-color: #2fdab8;
+		margin-top: -2;
+		padding-bottom: 15	px;
+		}
+
+
+	.nav-cliente {
+		background: #03a9f4;
+	}
+
+	.nav-cliente ul li {
+		display: inline-block;
+		text-align: center;
+		color: #fff;
+		letter-spacing: 1px;
+	}
+
+	.nav-cliente ul li a {
+		color: #fff;
+		text-decoration: none;
+		float: left;
+	}
